@@ -30,6 +30,6 @@ if __name__ == "__main__":
     )
     zodiac_sign = int(input("number> ").strip())
     print("choose some day:\n", "yesterday\n", "today\n", "tomorrow\n")
-    day = input("enter the day> ")
+    day = input("enter the day:\n ")
     horoscope_text = horoscope(zodiac_sign, day)
     print(horoscope_text)
